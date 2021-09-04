@@ -37,12 +37,24 @@ body>main {
 .content { 
     padding-left: 10px;
     padding-top: 10px;
-    min-height: 300px;
+    min-height: 40vh;
     background: #85888b;
 }
 
 .content.bg-alt {
     background: #131418;
+}
+
+.content.bg-alt.topgutter {
+    margin-top: 7px;
+    padding-left: 10px;
+    padding-bottom: -14px
+}
+
+
+.content.bottomadd.boottomgutter {
+    margin-bottom: 7px;
+    padding-left: 10px;
 }
 
 .exercise {
@@ -53,4 +65,8 @@ body>main {
     font-style: normal;
     font-size:larger;
     color: rgb(255, 174, 0);
+}
+
+.nogutters {
+    margin: 0px;
 }
