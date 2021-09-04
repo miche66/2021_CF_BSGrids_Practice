@@ -45,16 +45,29 @@ body>main {
     background: #131418;
 }
 
-.content.bg-alt.topgutter {
-    margin-top: 7px;
+.content2.white {
     padding-left: 10px;
-    padding-bottom: -14px
+    padding-top: 10px;
+    background: #ffffff;
 }
 
-
-.content.bottomadd.boottomgutter {
-    margin-bottom: 7px;
+.content3.grey {
     padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #85888b;
+}
+
+.content.bg-alt.topgutter {
+    margin-top: 7px;
+    min-height: 5vh;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.btn.btn-light {
+    min-length: 150px;
+    color: #85888b;
 }
 
 .exercise {
@@ -70,3 +83,15 @@ body>main {
 .nogutters {
     margin: 0px;
 }
+
+.btn1 {
+    background-color: #85888b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
