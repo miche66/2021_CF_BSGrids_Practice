@@ -1,0 +1,117 @@
+html,
+body {
+    position: relative;
+    color: #212121;
+    height: 100%;
+    min-height: 100%;
+}
+
+body>main {
+    /* margin to account for nav bar */
+    margin-top: 85px;
+    margin-bottom: 20px;
+}
+
+.heroText {
+    font-family: modesto-open-shadow, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(195, 255, 0);
+}
+
+.bgimage {
+
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/img/GridBG.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.minHeight {
+    min-height: 80vh;
+}
+
+.content { 
+    padding-left: 10px;
+    padding-top: 10px;
+    min-height: 40vh;
+    background: #85888b;
+}
+
+.content.bg-alt {
+    background: #131418;
+}
+
+.content2.white {
+    padding-left: 10px;
+    padding-top: 10px;
+    background: #ffffff;
+}
+
+.content3.grey {
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #85888b;
+}
+
+.content.bg-alt.topgutter {
+    margin-top: 7px;
+    min-height: 5vh;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+.btn.btn-light {
+    min-length: 150px;
+    color: #85888b;
+}
+
+.exercise {
+    min-height: 50px;
+    padding-bottom: 20px;
+    padding-top: 30px;
+    font-weight: 600;
+    font-style: normal;
+    font-size:larger;
+    color: rgb(255, 174, 0);
+}
+
+.nogutters {
+    margin: 0px;
+}
+
+.btn1 {
+    background-color: #85888b;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+  /*Adjustments for Grid 3b*/
+  .bodytest {
+    display: table;
+    background-color: white;
+}
+
+.left-side {
+    background-color: blue;
+    float: none;
+    display: table-cell;
+    border: 1px solid;
+}
+
+.right-side {
+    background-color: red;
+    float: none;
+    display: table-cell;
+    border: 1px solid;
+}
