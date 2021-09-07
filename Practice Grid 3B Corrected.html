@@ -16,11 +16,21 @@
 <body>
     <div class="container">
         <div class="row">
+            <!--TITLE OF GRID-->
             <div class="col text-center">
                 <div class="exercise">Practice Grid 3b</div>
             </div>
         </div>
+        <ul class="nav nav-pills mb-1">
+            <li class="nav-item">
+                <a href="Practice Grid 3A Corrected.html" class="nav-link" aria-current="page">Practice Grid 3A</a>
+            </li>
+            <li class="nav-item">
+                <a href="Practice Grid 3B Corrected.html" class="nav-link active" aria-current="page">Practice Grid 3B</a>
+            </li>
+        </ul>
         <div class="row">
+            <!--LEFT COLUMN-->
             <div class="col-md-7">
                 <div class="content text-light">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
@@ -32,21 +42,27 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <div class="content3 grey">
-                    <input style="width: 60%;" type="i class=" fa fa-search aria-hidden="true"></i>
-                    <button class="btn1"
-                        type="submit"
-                        name="searchsite"
-                        value="">
-                        Search
-                    </button>  
+                <!--RIGHT TOP COLUMN-->
+                <div class="bg-secondary text-light p-2">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
                 </div>       
-                <div class="content bg-alt topgutter text-light">
-                    More Articles
-                    <p></p><div class="btn btn-link">Article 1</button><br>
-                    <div class="btn btn-link">Article 2</button><br>
-                    <div class="btn btn-link">Article 3</button>
-                    </p>
+                <div class="bg-dark text-light mt-2 p-2">
+                    <h5>More Articles</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav nav-item">
+                            <a class="nav-link" href="#">Article One</a>
+                        </li>
+                        <li class="nav nav-item">
+                            <a class="nav-link" href="#">Article Two</a>
+                        </li>
+                        <li class="nav nav-item">
+                            <a class="nav-link" href="#">Article Three</a>
+                        </li>
+                    </ul>
+                </div>
                 </div>
             </div>
         </div>
