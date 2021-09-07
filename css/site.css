@@ -30,7 +30,7 @@ body>main {
 
 }
 
-.minHeight {
+.minheight {
     min-height: 80vh;
 }
 
@@ -42,6 +42,26 @@ body>main {
 }
 
 .content.bg-alt {
+    background: #131418;
+}
+
+
+.content80 { 
+    padding-left: 10px;
+    padding-top: 10px;
+    min-height: 80vh;
+    background: #85888b;
+}
+
+.content80.bg-alt {
+    background: #131418;
+}
+
+.content.bg-alt.topgutter {
+    margin-top: 7px;
+    min-height: 5vh;
+    padding-left: 10px;
+    padding-bottom: 15px;
     background: #131418;
 }
 
@@ -58,12 +78,6 @@ body>main {
     background: #85888b;
 }
 
-.content.bg-alt.topgutter {
-    margin-top: 7px;
-    min-height: 5vh;
-    padding-left: 10px;
-    padding-bottom: 15px;
-}
 
 .btn.btn-light {
     min-length: 150px;
@@ -82,6 +96,10 @@ body>main {
 
 .nogutters {
     margin: 0px;
+}
+
+.topmargin {
+    margin-top: 10px;
 }
 
 .btn1 {
