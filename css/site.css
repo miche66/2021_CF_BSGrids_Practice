@@ -4,12 +4,13 @@ body {
     color: #212121;
     height: 100%;
     min-height: 100%;
+    margin-bottom: 60px;
 }
 
 body>main {
     /* margin to account for nav bar */
     margin-top: 85px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
 }
 
 .heroText {
@@ -112,4 +113,8 @@ body>main {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
+.rowspacer {
+    min-height: 60px;
+}
